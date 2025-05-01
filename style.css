@@ -240,6 +240,7 @@ h1 span {
 }
 .skill:hover .percent {
     opacity: 1;
+    color: var(--color8);
 }
 .skill:hover .icons {
     transform: scale(1.08);
@@ -321,5 +322,10 @@ h1 span {
     }
     .skill {
         width:70px;
+        padding: 15px 
+    }
+    .skill .icons {
+        width:25px;
+    
     }
   }
